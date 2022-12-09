@@ -1,0 +1,136 @@
+body{
+    height: 100hv;
+    background-color: #DDFFE7;
+}
+
+.material-symbols-outlined {
+    color: whitesmoke;
+    font-size: 50px;
+    margin-top: 10px;
+
+}
+
+.brand-text{
+    margin-top: -20px;
+    color: whitesmoke;
+    font-size: 20pt;
+}
+
+.nav-bg{
+    background-color: #167D7F;
+}
+.board-card{
+    margin-top: 20px;
+    padding:2px ;
+    display: grid;
+  
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+
+    align-content: center;
+    width: auto;
+    height: auto;
+    border:6px solid #167D7F;
+    border-radius: 12px;
+    background-color: #29A0B1;
+}
+
+.board-cell{
+    
+    width: 66px;
+    height: 66px;
+    margin: 2px 2px;
+    padding:2px;
+    background-color: #C0DCEC;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #167D7F;
+    border-radius: 6px;
+    
+
+}
+.board-cell-3d{
+    background-color: #189AB4 !important;
+    box-shadow: 0 0 0 1px #98D7C2 inset,0 0 0 2px rgba(5, 68, 94,0.15) inset,0 4px 0 0      #167D7F,0 4px 0 1px rgba(5, 68, 94,0.15),0 4px 4px 1px ;
+}
+.score-card{
+    background-color: #98D7C2;
+    width: 200px;
+    height: 180px;
+    margin: 20px;
+}
+
+.footer-game{
+    position:fixed;
+    width: 100%;
+    bottom: 00px;
+    padding: 10px 0 10px 0;
+}
+.footer-span-left{
+   width: fit-content;
+   margin: 0 auto 0 10px;
+   color: aliceblue;
+}
+.footer-span-right{
+    width: fit-content;
+   margin: 0 10px 0 auto;
+   color: aliceblue;
+}
+.flag-icon{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cell-number-container{
+    
+    height: 100%;
+}
+.cell-number-0{
+    display: none;
+}
+.cell-number-1{
+    color: #2E8BC0;
+}
+.cell-number-2{
+    color:#0000FF ;
+}
+.cell-number-3{
+    color: #003A64;
+}
+.cell-number-4{
+    color: #432F70;
+}
+.cell-number-5{
+    color: #713770;
+}
+.cell-number-6{
+    color: #E95670;
+}
+.cell-number-7{
+    color: #E10032;
+}
+
+.cell-number-8{
+    color: #4D0011;
+}
+.cell-number-bomb{
+    color: #000000;
+}
+.board-cell-bomb{
+    background-color:#9C2D41;
+}
+
+.cell-number-text{
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40%;
+    font-size: 20pt;
+    font-weight: bolder;
+    
+}
+.flag{
+    font-size: 40px;
+    color: yellow;
+}
+
